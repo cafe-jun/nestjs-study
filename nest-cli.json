@@ -24,6 +24,15 @@
       "compilerOptions": {
         "tsConfigPath": "apps/rtc/tsconfig.app.json"
       }
+    },
+    "cache": {
+      "type": "application",
+      "root": "apps/cache",
+      "entryFile": "main",
+      "sourceRoot": "apps/cache/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/cache/tsconfig.app.json"
+      }
     }
   }
 }

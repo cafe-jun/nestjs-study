@@ -7,7 +7,7 @@ export class AppController {
 
   @Get()
   getHello(): string {
-    console.log('monorepo update');
+    console.log('monorepo');
     return this.appService.getHello();
   }
 }
