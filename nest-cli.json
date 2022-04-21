@@ -51,6 +51,15 @@
       "compilerOptions": {
         "tsConfigPath": "apps/queue/tsconfig.app.json"
       }
+    },
+    "buill-queue": {
+      "type": "application",
+      "root": "apps/buill-queue",
+      "entryFile": "main",
+      "sourceRoot": "apps/buill-queue/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/buill-queue/tsconfig.app.json"
+      }
     }
   }
 }
