@@ -1,5 +1,6 @@
 import { Entity } from 'typeorm';
-@Entity('Book')
-export class Book {
+
+@Entity('Ticket')
+export class Ticket {
   title: string;
 }
