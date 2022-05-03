@@ -1,4 +1,4 @@
-import { Repository } from 'typeorm';
+import { DeepPartial, Repository } from 'typeorm';
 import { IGenericRepository } from './generic-repository.abstract';
 
 export class MySqlGenericRepository<T> implements IGenericRepository<T> {
@@ -16,7 +16,7 @@ export class MySqlGenericRepository<T> implements IGenericRepository<T> {
     return this._repository.getId(id);
   }
 
-  create(item: T) {
+  create(item: DeepPartial<T>) {
     return this._repository.save(item);
   }
 
