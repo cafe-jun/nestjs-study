@@ -633,7 +633,7 @@
     "tslib" "2.3.1"
     "uuid" "8.3.2"
 
-"@nestjs/platform-express@^8.0.0":
+"@nestjs/platform-express@^8.0.0", "@nestjs/platform-express@^8.4.4":
   "integrity" "sha512-n/H83uzw154v6NVVSg6mniZIvYWtYp0dtNpU9O1qdEmDO030p0tBkeIRoDtpeOVvL2fW5PsHiUYS7HY4tNfykQ=="
   "resolved" "https://registry.npmjs.org/@nestjs/platform-express/-/platform-express-8.4.4.tgz"
   "version" "8.4.4"
