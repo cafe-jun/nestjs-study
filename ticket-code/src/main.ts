@@ -4,7 +4,7 @@ import { AppModule } from './app.module';
 
 async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule);
-  console.log(app);
+  console.log(app, 'Generic TicketCode');
   await app.listen(3000);
 }
 bootstrap();
