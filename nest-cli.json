@@ -60,6 +60,15 @@
       "compilerOptions": {
         "tsConfigPath": "apps/buill-queue/tsconfig.app.json"
       }
+    },
+    "social-login": {
+      "type": "application",
+      "root": "apps/social-login",
+      "entryFile": "main",
+      "sourceRoot": "apps/social-login/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/social-login/tsconfig.app.json"
+      }
     }
   }
 }
