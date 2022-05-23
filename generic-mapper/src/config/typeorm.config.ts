@@ -11,8 +11,9 @@ export const databaseProviders = [
         username: 'root',
         password: 'Jsshin2440!@',
         database: 'study_db',
-        entities: [__dirname + '/../**/*.entity{.ts,.js}'],
+        entities: [__dirname + '/../entities/*.entities{.ts,.js}'],
         synchronize: true,
+        logging: true,
       });
 
       return dataSource.initialize();
