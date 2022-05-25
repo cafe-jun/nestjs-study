@@ -3,7 +3,7 @@ export abstract class IGenericRepository<T> {
 
   abstract get(id: string): Promise<T>;
 
-  abstract create(item: T): Promise<T>;
+  abstract createRow(item: T);
 
-  abstract update(id: string, item: T);
+  abstract updateRow(id: string, item: T);
 }
