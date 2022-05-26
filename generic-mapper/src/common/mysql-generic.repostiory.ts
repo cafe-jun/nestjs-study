@@ -1,4 +1,10 @@
-import { Entity, Repository } from 'typeorm';
+import {
+  Entity,
+  InsertOneWriteOpResult,
+  InsertResult,
+  InsertWriteOpResult,
+  Repository,
+} from 'typeorm';
 import { IGenericRepository } from './generic-repository.abstract';
 
 export class MySqlGenericRepository<T> implements IGenericRepository<T> {
@@ -14,7 +20,7 @@ export class MySqlGenericRepository<T> implements IGenericRepository<T> {
   }
 
   get(id: any): Promise<T> {
-    return this._repository.findOneBy(id);
+    return this._repository.findOne(id);
   }
 
   createRow(item: T) {
