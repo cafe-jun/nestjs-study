@@ -1,5 +1,5 @@
 import { Inject, Injectable } from '@nestjs/common';
-import { Photo } from '../../entities/Photo.entities';
+import { Photo } from '../../entities/photo.entities';
 import { Repository } from 'typeorm';
 
 @Injectable()
