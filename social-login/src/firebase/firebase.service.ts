@@ -1,4 +1,12 @@
 import { Injectable } from '@nestjs/common';
 
 @Injectable()
-export class FireBaseService {}
+export class FireBaseService {
+  getkakaoToken() {}
+
+  getNaverToken() {}
+
+  getGoogleToken() {}
+
+  getAppleToken() {}
+}
