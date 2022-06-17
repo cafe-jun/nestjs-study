@@ -6,7 +6,4 @@ export class FireBaseService {
 
   getNaverToken() {}
 
-  getGoogleToken() {}
-
-  getAppleToken() {}
-}
+\}
