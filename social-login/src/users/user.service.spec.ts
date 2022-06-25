@@ -8,9 +8,11 @@ describe('World Exhibition Query Test', () => {
       providers: [],
     }).compile();
   });
-  afterAll(async () => {
-    await getConnection().close();
-  });
+  afterAll(async () => {});
 
-  it('App API : findBySpacesId registered MainHall List', async () => {});
+  it('kakao login get token', async () => {});
+
+  it('naver login get token', async () => {});
+
+  it('google login get token', async () => {});
 });
